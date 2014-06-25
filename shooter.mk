@@ -81,7 +81,6 @@ PRODUCT_PACKAGES += \
 
 # Kernel init.d script
 PRODUCT_COPY_FILES += \
-    device/htc/shooter/config/99kernel:system/etc/init.d/99kernel \
     device/htc/shooter/config/00_frandom:system/etc/init.d/00_frandom
 
 # Virgin voicemail
