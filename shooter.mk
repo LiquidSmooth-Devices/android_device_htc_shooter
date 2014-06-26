@@ -73,11 +73,16 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_COPY_FILES += device/common/gps/gps.conf_US_SUPL:system/etc/gps.conf
+
 PRODUCT_PACKAGES += \
     gps.shooter
 
 PRODUCT_PACKAGES += \
     Torch
+
+# DeviceSettings
+PRODUCT_PACKAGES += \
+    DeviceSettings
 
 # Kernel init.d script
 PRODUCT_COPY_FILES += \
